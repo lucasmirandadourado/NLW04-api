@@ -1,0 +1,84 @@
+_type: export
+__export_format: 4
+__export_date: 2021-02-23T01:07:30.248Z
+__export_source: insomnia.desktop.app:v2020.5.2
+resources:
+  - _id: req_590283bed8ad42229ffe6c40ae59965e
+    parentId: wrk_638ce636ee274aeaa2582d69968cc8f6
+    modified: 1614042378692
+    created: 1614042374073
+    url: "{{ _.baseURL }}"
+    name: Requisição GET
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1614042374073
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_638ce636ee274aeaa2582d69968cc8f6
+    parentId: null
+    modified: 1614042275393
+    created: 1614042258687
+    name: NLW04
+    description: ""
+    scope: null
+    _type: workspace
+  - _id: req_2707e92d97444d2087cd144aa6aeeb72
+    parentId: wrk_638ce636ee274aeaa2582d69968cc8f6
+    modified: 1614042341163
+    created: 1614042299157
+    url: "{{ _.baseURL }}"
+    name: Requisição POST
+    description: ""
+    method: POST
+    body: {}
+    parameters: []
+    headers: []
+    authentication: {}
+    metaSortKey: -1614042299158
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: true
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_e590e67964e16f215cf9f09f179ec8ba78ce67a2
+    parentId: wrk_638ce636ee274aeaa2582d69968cc8f6
+    modified: 1614042333064
+    created: 1614042258769
+    name: Base Environment
+    data:
+      baseURL: localhost:3333
+    dataPropertyOrder:
+      "&":
+        - baseURL
+    color: null
+    isPrivate: false
+    metaSortKey: 1614042258769
+    _type: environment
+  - _id: jar_e590e67964e16f215cf9f09f179ec8ba78ce67a2
+    parentId: wrk_638ce636ee274aeaa2582d69968cc8f6
+    modified: 1614042258773
+    created: 1614042258773
+    name: Default Jar
+    cookies: []
+    _type: cookie_jar
+  - _id: spc_da953c8008d34651a7c00504dab42e89
+    parentId: wrk_638ce636ee274aeaa2582d69968cc8f6
+    modified: 1614042258689
+    created: 1614042258689
+    fileName: Insomnia
+    contents: ""
+    contentType: yaml
+    _type: api_spec
